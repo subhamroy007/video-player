@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "myCustomRegularFont";
+  src: url(./assets/NotoSansJP-Light.otf);
+}
+
+html {
+  font-size: 18px;
+  font-family: myCustomRegularFont;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
