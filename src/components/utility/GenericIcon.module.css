@@ -1,0 +1,36 @@
+.transition-container {
+  transform: scale(1.2);
+}
+
+.icon-container {
+  box-shadow: 0 0 0.5em black;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  transition-property: width, height, transform;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+}
+
+.icon {
+  width: 80%;
+  height: 80%;
+  padding: 0.2em;
+  fill: white;
+  stroke: white;
+}
+
+@media only screen and (min-width: 650px) {
+  .icon-container {
+    width: 64px;
+    height: 64px;
+  }
+  .icon {
+    padding: 0.3em;
+  }
+}

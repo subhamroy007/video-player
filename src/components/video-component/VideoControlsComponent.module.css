@@ -1,0 +1,44 @@
+.controls-container {
+  position: absolute;
+  top: 88%;
+  left: 0%;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.progress-tracker-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 5;
+}
+
+.duration-container {
+  font-size: 0.7em;
+}
+
+.control-button-container {
+  flex: 6;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+@media only screen and (min-width: 650px) {
+  .duration-container {
+    font-size: 0.8em;
+  }
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
